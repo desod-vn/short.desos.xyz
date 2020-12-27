@@ -1,0 +1,190 @@
+header {
+	width: 100%;
+	min-height: 100%;
+    background-image: url('mountain.png');
+    background-color: #FBFBF2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.a
+{
+    text-decoration: none;
+}
+.banner
+{
+    margin: 10% 0 5% 0;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #437C90;
+    text-align: center;
+}
+#link-in, #link-out{
+    background-color: #dddddd!important;
+    border: none!important;
+    outline: none!important;
+    margin: 10px 0!important;
+    background-image: url('img/link.png')!important;
+    background-repeat: no-repeat!important;
+    background-position: 10px 10px!important;
+    padding: 15px 0px 15px 55px!important;
+    box-sizing: border-box!important;
+    font-size: 1.5rem!important;
+    text-decoration: none!important;
+    width: fill;
+    border-radius: 0!important;
+}
+#link-in:focus
+{
+    border-bottom: 1px solid blue!important;
+    transition: all 0.5s!important;
+}
+input[type=button], #link-press {
+    background-color: #415a77!important;
+    color: white!important;
+    width: auto;
+    box-sizing: border-box!important;
+    font-size: 1.5rem!important;
+    padding: 1rem 2rem!important;
+    border-radius: 25px!important;
+    border: none!important;
+    outline: none!important;
+    cursor: pointer!important;
+}
+#link-press:hover {
+    background-color: #1b263b!important;
+}
+#link-form {
+	text-align: left;
+    border-radius: 5px;
+    background-color: #dddddd;
+    padding: 0.5rem 1rem;
+}
+.link-over {
+    width: 90%;
+    display: inline-block;
+    padding: 10px 5px 10px 40px;
+    margin: 5%;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.vip {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: -8px -7px;
+  background: url('img/vip.png');
+  width: 50px;
+  height: 51px;
+  color: transparent;
+  display: inline;
+  user-select: none;
+  background-repeat: no-repeat;
+}
+#over-date{
+    background-image: url('img/date.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+#over-descript{
+    background-image: url('img/des.png');
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+}
+#over-password{
+    background-image: url('img/pass.png');
+    background-repeat: no-repeat;
+    background-position: 10px 4px;
+}
+#over-query{
+    background-image: url('img/query.png');
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #3F88C5;
+}
+.navbar--logo {
+    padding: 10px;
+}
+.navbar__ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navbar__ul__li {
+    float: left;
+}
+  
+.navbar__ul__li__a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+  
+.navbar__ul__li__a:hover:not(.navbar__ul__li--active) {
+    background-color: #2A618D;
+}
+  
+.navbar__ul__li--active {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    background-color: #F49D37;
+}
+.navbar__ul__li--right{
+    float: right;
+}
+#wave {
+    transform: rotate(180deg);
+    z-index: -100;
+}
+section {
+    margin:-5% 0 10% 0;
+}
+.menu {
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 3px 3px 10px #000;
+}
+.menu:hover {
+   background-color: #dddddd;
+}
+.menu__img {
+    height: 25px;
+    width: 25px;
+}
+.menu__p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.invod {
+    text-align: center;
+    font-size: 18px;
+    padding: 10%;
+}
+.invod__p {
+    text-align: center;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
