@@ -35,8 +35,8 @@ echo '<div class="place-overlay">';
                   $mail->isSMTP();                                    
                   $mail->Host = 'smtp.gmail.com';  
                   $mail->SMTPAuth = true;                             
-                  $mail->Username = 'thangdotpro@gmail.com';
-                  $mail->Password = 'chelsea1st';                           
+                  $mail->Username = '';
+                  $mail->Password = '';                           
                   $mail->SMTPSecure = 'tls';                            
                   $mail->Port = 587;
 
